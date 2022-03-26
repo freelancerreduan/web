@@ -1,0 +1,236 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width:700px) {
+    
+}
+body {
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50% ,rgba(0,0,0,0.5)50%),url(img/e1.jpg) ;
+    background-size: 100% 640px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+    /* This Programme logo section */
+    .main_div {
+        height: 89px;
+        width: 100%;
+    }
+    .logo {
+        height: 30px;
+        width: 360px;
+        margin: 17px 27px;
+        position: absolute;
+    }
+    .logo a{
+        color: black;
+        text-decoration: none;
+        font-size: 30px;
+        
+    
+    }
+    .logo a span{
+        color: orange;
+    }
+
+
+
+
+
+    /* Menu Section This programme */
+    .menu{
+        width: 100%;
+        height: 90px;
+        background-color:rgb(116, 101, 101) ;  
+    }
+    .menu ul {
+        list-style-type: none;
+        float: right ;
+        padding: 10px 30px;
+        display: inline-block;
+    }
+    .menu ul li{
+        float: left;
+        padding: 10px 30px ;
+    }
+    .menu ul li a{
+        color: white;
+        text-decoration: none;
+        margin-left: 10px;
+        font-size: 14px;
+        transition: 0.6s ease;
+    }
+    .menu ul li a:hover{
+        color: orange;
+        transition: 0.6s ease;
+        
+    }
+    .menu ul li a:focus{
+        color: rgb(124, 185, 0);
+    }
+
+
+
+
+
+    /* heading section this programme */
+    .heading {
+        width: 502px;
+        margin: 180px 75px;
+        text-align: center;
+    }
+    .heading h1{
+        text-align: center;
+        margin: auto;
+    }
+    .heading p{
+        text-align: justify;
+        color: aliceblue;
+    }
+    .heading button{
+        background-color: orange;
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 5px;
+        margin: 10px 6px;
+        border: 1px solid orange;
+        transition: 0.6s ease;
+    }
+    .heading button:hover{
+        background-color: olive;
+        color: aqua;
+        transition: 0.6s ease;
+    }
+
+
+
+
+
+    /* servic section this programme  */
+    .servic_main {
+        width: 1200px;
+        text-align: justify;
+        background-color: rgb(173, 0, 0);
+    
+    }
+    .servic_section1 {
+        padding: 5px;
+        width: 360px;
+        float: left;
+        margin: 30px 0px 0px 30px;
+        box-shadow: 0px 0px 4px 1px darkgrey;
+        transition: all 0.5s ;
+
+    }
+    .servic_section1:hover{
+        transition: all 0.5s ;
+        box-shadow: 0px 0px 14px 10px darkgrey;
+    }
+    .servic_section1 img {
+        height: 200px;
+        width: 360px;
+    }
+
+    .servic_section1 h2{
+        text-align: center;
+        color: #000000;
+    }
+    .servic_section1 a {
+        height: 22px;
+        width: 348px;
+        background-color: gray;
+        color: white;
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
+        padding: 5px;
+        transition: all 0.5s ease-in-out;
+    }
+    .servic_section1 a:hover{
+        color: aliceblue;
+        background-color: orange;
+        transition: all 0.5s ease-in-out;
+    }
+
+
+
+
+    /* main_contact_section This is programme */
+
+    .main_contact_section{
+       
+        width: 100%;
+        float: right;
+        background: linear-gradient(to top,rgba(0,0,0,0.5)50% ,rgba(0,0,0,0.5)50%),url(img/img6.jpg) ;
+        background-size: 100% 700px;
+        margin: 30px 0px 0px 0px;
+    }
+    .contact_section {
+        
+        height: 357px;
+        width: 931px;
+        margin-left: 25%;
+        border-radius: 5px;
+    }
+    .contact_section h2{
+        MARGIN-LEFT: 289PX;
+        color: aliceblue;
+    } 
+    .contact_section  form input,textarea{
+        padding: 10px;
+        width: 300px;
+        margin: 10px ;
+        color: aliceblue;
+        background: transparent;
+        border-radius: 4px;
+        border: solid 2px rgb(240, 31, 31);
+        
+    }
+   
+    .contact_section input::placeholder{
+        color: white;
+    }
+     .contact_section textarea::placeholder{
+        color: white;
+    }
+    
+    .contact_section button{
+        background-color: red ;
+        color: white;
+        padding: 10px;
+        font-size: 16px;
+        margin: 14px 0px 0px 301px;
+        border: solid 1px white;
+        border-radius: 2px;
+        transition: all 0.5s ;
+    }
+    .contact_section button:hover{
+        background-color: orange;
+        color: aqua;
+        font-size: 16px;
+        transition: all 0.5s ;
+    }
+
+
+
+
+
+
+
+
+
+    /* Icon Section This Programme Code */
+    .icon ion-icon {
+        color: aliceblue;
+        font-size: 30px;
+        margin-left: 25px;
+        float: right;
+        
+    }
